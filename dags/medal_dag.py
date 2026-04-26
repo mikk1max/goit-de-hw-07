@@ -93,7 +93,7 @@ with DAG(
 
     # DELAY_SECONDS = 35  →  sensor FAILS  (demo for homework)
     # DELAY_SECONDS = 5   →  sensor PASSES (demo for homework)
-    DELAY_SECONDS = 35
+    DELAY_SECONDS = 5
 
     def _generate_delay(**_):
         print(f"Sleeping {DELAY_SECONDS}s ...")
